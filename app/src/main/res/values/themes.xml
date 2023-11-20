@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme._1_HomeWork" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="ShapeAppearanceOverlay.Picture" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
