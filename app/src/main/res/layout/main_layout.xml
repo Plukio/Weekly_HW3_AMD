@@ -81,6 +81,8 @@
 
 
 
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -511,22 +513,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding = "8dp"
-                android:gravity="center"
-                android:background="@drawable/rounded_bg_white"
+                android:gravity="center_horizontal"
                 android:layout_marginRight="12dp">
 
 
-
-                <TextView
+                <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/rounded_bg_white"
                     android:text="Bangkok"
-                    android:gravity="center"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
-                    android:layout_marginRight="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:textColor="@color/white"/>
+                    />
 
 
             </LinearLayout>
@@ -536,21 +534,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding = "8dp"
-                android:gravity="center"
-                android:background="@drawable/rounded_bg_white">
+                android:gravity="center_horizontal">
 
 
 
-                <TextView
+                <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/rounded_bg_white"
                     android:text="Thailand"
-                    android:gravity="center"
+                    android:textColor="@color/white"
                     android:textSize="12sp"
-                    android:layout_marginRight="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:textColor="@color/white"/>
+                    />
 
 
             </LinearLayout>
